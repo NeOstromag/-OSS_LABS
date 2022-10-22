@@ -1,0 +1,11 @@
+
+.:
+total 4
+drw-rw-rw-. 2 katya katya 22 Oct  8 22:52 dir
+-rw-r-----. 1 root  katya  5 Oct  8 22:49 file
+-rw-------. 1 katya katya  0 Oct  8 22:59 file1
+-rw-rw-rw-. 1 katya katya  0 Oct  8 23:00 file2
+
+./dir:
+total 0
+-????????? ? ? ? ?            ? new_file
