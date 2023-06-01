@@ -1,0 +1,47 @@
+í«îÛ   515-10-1.0-1.fc37                                                                   ­è         ´   >     ¤                       )     è      l     ì      p     ï      €     ğ      „   5970d7a9ad92e50c620e12e5c2e899726b2c7449 411c9f7346ef6301f433c33406a5f1b122518543e18566108c6b98f786350af8     –¿?Åä‚·æú™ÈN5Ö$S  ì                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   >   ÿÿÿ       ­è       6  û   ?     ë      d            è           é      	     ê           ì   	        í   	   W     î      h     ï      l     ñ      t     ö      x     ø   	   |     ú      „     ü      –     ı      ¹     ş      ¿           È           Ğ     	      Ô     
+      Ø           à          b          d          l          z          ˆ                    ˜          ¬          ÷     (     
+     8          9          :     $     A     <     F     C     G     X     H     `     I     h     R     l     X     p     Y     t     \     €     ]     ˆ     ^     ¦     d     §     e     ¬     f     ±     “     ´     Æ     ¸     ä     ¾     å           é          ë     E   C 515-10 1.0 1.fc37 ĞŸÑ€Ğ¾Ğ³Ñ€Ğ°Ğ¼Ğ¼Ğ° ÑÑ‚ÑƒĞ´ĞµĞ½Ñ‚Ğ° Koshunova Ğ³Ñ€ÑƒĞ¿Ğ¿Ñ‹ B20-515 A test package   dw-õfedora    tGPL Testing 515-10-1.0.tar.gz https://github.com/Qvver7y/OSS2022 linux noarch      ô  €¤¤    dw'bdw-ê5b813f169aed36dddf609ea066c12a72131c768e54c77c00d9a33e3932b43fdc 91acda161fb292ad1be32cb170713ac87690bbea8503dd62277067577d4912b5           qwerty qwerty qwerty qwerty ÿÿÿÿÿÿÿÿ515-10                
+  
+/bin/cp /bin/mkdir /bin/rm rpmlib(CompressedFileNames) rpmlib(FileDigests)    3.0.4-1 4.6.0-1 4.18.1    P}L@<Ostromogilskii> - Added /usr/bin/515-10 noarch fedora 1685532149                          1.0-1.fc37          515-10-1.0.tar.gz 515-10.spec  cpio gzip 9     utf-8 610b9b48aa02dfd1ca318b156bdd1284c370d151ae41ea5bdf8af6634a4548f9     1599d74f57d1e772b6f833d7aaed783c70bfd36767283afa1d2c34b8a80c467f Name:          515-10
+Version:       1.0
+Release:       1.fc37
+Summary:       ĞŸÑ€Ğ¾Ğ³Ñ€Ğ°Ğ¼Ğ¼Ğ° ÑÑ‚ÑƒĞ´ĞµĞ½Ñ‚Ğ° Ostromogilskiia Ğ³Ñ€ÑƒĞ¿Ğ¿Ñ‹ B20-515
+Group:         Testing
+License:       GPL
+URL:           https://github.com/NeOstromag/-OSS_LABS
+Source0:       515-10-1.0.tar.gz
+BuildRequires: /bin/rm, /bin/mkdir, /bin/cp
+Requires:      /bin/bash, /usr/bin/date
+BuildArch:     noarch
+
+%description
+A test package
+
+%prep
+cd '/home/qwerty/rpmbuild/BUILD'
+rm -rf '515-10-1.0'
+/usr/lib/rpm/rpmuncompress -x '/home/qwerty/rpmbuild/SOURCES/515-10-1.0.tar.gz'
+STATUS=$?
+if [ $STATUS -ne 0 ]; then
+  exit $STATUS
+fi
+cd '515-10-1.0'
+/usr/bin/chmod -Rf a+rX,u+w,g-w,o-w .
+
+
+
+mkdir -p /home/qwerty/rpmbuild/BUILDROOT/515-10-1.0-1.fc37.x86_64/usr/bin
+install -m 755 515-10 /home/qwerty/rpmbuild/BUILDROOT/515-10-1.0-1.fc37.x86_64/usr/bin
+sudo yum install gnuplot
+
+%files
+/usr/bin/515-10
+
+%changelog
+* Thu Oct 16 2012 <Ostromogilskii>
+- Added /usr/bin/515-10
+    ?   ÿÿü    ‹     T[HQ^ê!9/E—‡Ä#´ åîÎN®#&Ê
+º©Kæj+³3ÇİÑİ™q.Â¶-–f”B!RAŒ´¼D¢n7Ì§œµ§RÄ‡„(4
+L*Ê;»j7Š¾™ÿüÿwÎùşÿ?gŠ +¡#öÍ¶Ò™ÄïaÍÊ¤(’Ê"õaÍŸx?O#–°™¬„Éj&Ì
+-™½G)mI†ÖÏEíµë¬[Gßß’[}Õ¯í#w—oÊ-İ®>à3’Oªoîªš~¸åtßş’ç¦Æö¦'líºÜ÷­ñÒâLË«–ñÚIÛ`İmuÇ›+Í#ı×k?»«Şn '2ïg‡îh£'İi‡&‹¶µ/n+9ónïêï¸´Tşq÷ÒâÀ)êÙ¬0ÑıéiıæİÌÁœ»ÔU”9ØQxÕŸw^Jk=ævŞ%S^^Ÿ8G¦”½«|>7ÕZ¨‹Ô‡"æÓÛ÷ªæï77&=¦"É7Üg¯µG¾æÖ`&ÏºÓ³c/i±¶æä?ÕœE´ÎÎ&şÌ57Ë"b°}t åÀèAàF’Ì	|"€û\Èhy…k5†òYNVÂ Bh)˜hÑãÚˆÖ‹ß=Ú~z`ôD´)Ú¬õiıÚp´	;JÙ§òB—y8Ñ"Ñ6X@&, 8$AWEU"Yáx/prâW8ö;Á—sxèSQÎ±X¼œâS=fFXÊD-e$A’TªÄ "1ÍâqÂ&c¨AÏ9?‰ @åü¬Õ«œ„ähñp¼E
+dèF å¤¸Íˆ`•CÌí¡ef¨²²´‚ô5íãÓ‰¼@c #‹dFâDïìPÁ	C‘fêh/ÂAQB"0ÊHQEhªÇ—Úï1Ğ$â$<ËK‚ „¡#x;ƒ8š²Ùâ½ıYVYÕ LÌòòªè¼_çG2XåZâ§Í{‘_ğ‚°Ò§Â2FÖ,Hâ+sKIos0A;Ë"şºÆgÿ¯?âÿàI•.{±³Ğ•ššº|¿@HQì  

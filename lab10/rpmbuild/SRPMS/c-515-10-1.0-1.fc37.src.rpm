@@ -1,0 +1,45 @@
+í«îÛ   c-515-10-1.0-1.fc37                                                                 ­è         ´   >     ¤                       )     è      l     ì      p     ï      €     ğ      „   d8282575bee743ebedb7a5c801e3c19cd07f6808 be4631ec684848030c0f1e5e82a97900c554bcaab70c3a2de87ee645583c4369     eí÷®˜ã¬~œMÄPÊÀ>b  ô                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   >   ÿÿÿ       ­è       5  Ï   ?     ¿      d            è           é           ê           ì   	        í   	   Z     î      l     ï      p     ñ      x     ö      |     ø   	   €     ú      ˆ     ü      œ     ı      ¿     ş      Å           Ì           Ô     	      Ø     
+      Ü           ä          f          h          p          ~          Œ          ”                     ¬          à     (     ñ     8     ø     9     ü     :          F     "     G     4     H     <     I     D     R     H     X     L     Y     P     \     \     ]     d     ^     †     d     ‡     e     Œ     f     ‘     “     ”     Æ     ˜     ä          å     à     é     ä     ë     %   C c-515-10 1.0 1.fc37 ĞŸÑ€Ğ¾Ğ³Ñ€Ğ°Ğ¼Ğ¼Ğ° ÑÑ‚ÑƒĞ´ĞµĞ½Ñ‚Ğ° Korshunova Ğ³Ñ€ÑƒĞ¿Ğ¿Ñ‹ B20-515 A test package    dw1\fedora    tGPL Testing c-515-10-1.0.tar.gz https://github.com/Qvver7y/OSS2022 linux x86_64    ó  ¤¤    dw/+dw1Vcb94257506b219219d68dd5b708782c86e77aa116d11324497c8fdde399f7c23 b9b2f10b77da219cd9f826dfbe6afc9df6ff3e400e5eeb522906e60d9640e26d           qwerty qwerty qwerty qwerty ÿÿÿÿÿÿÿÿc-515-10          
+  
+gcc rpmlib(CompressedFileNames) rpmlib(FileDigests)  3.0.4-1 4.6.0-1 4.18.1 P}L@<Ostromogilskii> - Added /usr/bin/c-515-10 fedora 1685533020                       1.0-1.fc37          c-515-10-1.0.tar.gz c-515-10.spec  cpio gzip 9     utf-8 4a01ed859f5e1b9d3e1e7fa3e017ddb5febe44849a6b6a77791fd9ebd30f094d     6194393e0739c8dbf84bf493599603899263e012bc64694790a89f2a9a30f3c4 Name:       c-515-10
+Version:    1.0
+Release:    1.fc37
+Summary:    ĞŸÑ€Ğ¾Ğ³Ñ€Ğ°Ğ¼Ğ¼Ğ° ÑÑ‚ÑƒĞ´ĞµĞ½Ñ‚Ğ° Ostromogilskiia Ğ³Ñ€ÑƒĞ¿Ğ¿Ñ‹ B20-515
+Group:      Testing
+License:    GPL
+URL:        https://github.com/NeOstromag/-OSS_LABS
+Source:     c-515-10-1.0.tar.gz
+BuildRequires: gcc
+
+
+
+%description
+A test package
+
+%prep
+cd '/home/qwerty/rpmbuild/BUILD'
+rm -rf 'c-515-10-1.0'
+/usr/lib/rpm/rpmuncompress -x '/home/qwerty/rpmbuild/SOURCES/c-515-10-1.0.tar.gz'
+STATUS=$?
+if [ $STATUS -ne 0 ]; then
+  exit $STATUS
+fi
+cd 'c-515-10-1.0'
+/usr/bin/chmod -Rf a+rX,u+w,g-w,o-w .
+
+gcc -O2 -o c-515-10 c-515-10.c
+
+
+%install
+
+mkdir -p /home/qwerty/rpmbuild/BUILDROOT/c-515-10-1.0-1.fc37.x86_64/usr/bin
+cp c-515-10 /home/qwerty/rpmbuild/BUILDROOT/c-515-10-1.0-1.fc37.x86_64/usr/bin
+sudo rpm -i ~/rpmbuild/RPMS/noarch/515-10-1.0-1.fc37.noarch.rpm --force
+
+%files
+/usr/bin/c-515-10
+
+%changelog
+* Thu Oct 16 2012 <Ostromogilskii>
+- Added /usr/bin/c-515-10
+    ?   ÿÿü°   ‹     T[HQ^èBzè%*":ZÍÎÅËŠDe&jc»fFiÌÎœš™æ²µÙd¤%ùPA”t'¢”Ê4•­ T³E!Q==D©èŞÙ‹kˆ‘ô3óÏÿÿçû/ç?Cy)/ES)$ß…4—Gº Ïëe‚L õÌ¥F:ÃÇùT>ASí¡<&§{Ä­.—kfËWcŞÄc®-4şyOKwNwà|ñvìAi7×ÍŞ3µyz­wyNo÷{x²ÉiñíıµyÚî‡ÖüÌ¾(Ïz±<°}åçXOÿÓ²ƒı:êrJŞÎaõ5Ó·½>:³kiM4»sQõÂmûîÿøô“|ı{{Åº~ó¦ûùüŠ’)üø/emÙûç¾<\G¿Œ4\¨›hY{SåãğÕèÃ®ÈÎ+çŞ}õu-é}ûäÒë’Gyo[Ï«wÆ·»O}>Ãzo¬>6Ğºå,ûµ½a¬kŞŞë;~÷›k.–©?ûÎŒ¦ï¹t~AÊ»]ß)4¼ïCC¼kFE0…A¨Fº!©JRwøŒ8#åG»ë	’aÚÀo…ÃœMj¶ø§×¹„ŸÎU|uÀøÎxc|—sÙétzâXQ¦êFÈRÔØÖçôÅ[à†J%ºjié\ªaJŠÊ%)éÈ%•å`•¯|0[2MÍ("IQ2CVÀÃ«are$‚to”dı~†bàW-O×ç®Wp­6á®¤Ê³ÓS–X’,øĞ&KÒ‘QEÀ-Êj€“¡€–¸^ãøœˆ’lc«€^—4Ó€bhâlaÚ5iÀm ÓÒ ±	+‰  óB‚e ¡f:<‰’b˜œ,ƒğFAÒ!¡ápÉ•ºªš¶»~}@R°Á¼6DğÃT¨kaHHp;‰…¤é«¬ğ“ŠÊé|ˆ:}øò¹^OÊàI.#‚*îN*(ÉÈ CÔdfJ€›qŠˆdUó`UÈ‚,oBº 2ÍÀ™í^X,H€#±Ÿÿş@¨ÿC`P¨ò—–/óeee%Îáo{#kğô  
